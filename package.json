@@ -1,0 +1,32 @@
+{
+  "name": "iterators-generators",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emukupa/iterators-generators.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emukupa/iterators-generators/issues"
+  },
+  "homepage": "https://github.com/emukupa/iterators-generators#readme",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-plugin-transform-async-generator-functions": "^6.24.1",
+    "babel-preset-latest": "^6.24.1"
+  },
+  "quokka": {
+    "babel": [
+      "es2017"
+    ],
+    "plugins": [
+      "babel-plugin-transform-async-generator-functions"
+    ]
+  }
+}
